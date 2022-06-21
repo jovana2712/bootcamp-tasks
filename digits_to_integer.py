@@ -33,6 +33,9 @@ def convert(lst):
 
 
 def main():
+    """
+    The main function performs several calls to the convert function on different lists to perform testing.
+    """
     print(convert([8, 3, 5, 1]))
     print(convert([1, 2, 3, 4, 5, 6]))
     print(convert([9, 5, 2]))
